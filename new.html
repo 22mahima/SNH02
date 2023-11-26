@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mindzen</title>
+    <style>
+	 body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff; /* white color */
+            color: #0077cc; /* Dark gray for text,*/
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #mindzen {
+            cursor: pointer;
+        }
+
+		
+
+        h1 {
+            font-family: 'Garamond', serif; /* Soothing font */
+            color: #0077cc; /* blue color */
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #0077cc; /* blue color */
+        }
+
+
+       
+        
+		.white-bg {
+            background-color: #0077cc; /* Pleasant color */
+            color: #0077cc; /* blue text on green background */
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+		 #healthTracking, #mentalIllness, #positiveCorner {
+            display: none;
+        }
+
+        .brain-structure {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .box {
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background-color:  #0077cc; /* Pleasant color */
+            color: #0077cc; /* White text on green background */
+            border-radius: 8px;
+            text-align: center;
+        }
+         font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+		h2 {
+            color: #333;
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+
+        .options {
+            margin-bottom: 20px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        #result {
+            font-weight: bold;
+        }
+        font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .print-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		.button {
+		            background-color: #0077cc; /* Pleasant color */
+		            color: #oo77cc; /* Whirpool color */
+		            padding: 10px 20px;
+		            border: none;
+		            cursor: pointer;
+		            font-size: 1em;
+		            margin-top: 20px;
+		        }
+			    .white-bg {
+			               background-color: #d5e0de; /* Pleasant color */
+			               color:#56ba9a
+					   }
+                        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #activity-list {
+            margin-bottom: 20px;
+        }
+        #activity-input {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        #timers {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+		#result {
+            font-size: 1.2em;
+            color: white;
+            font-weight: bold;
+        }
+         body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7; /* Whirpool color */
+            color: #0c825f; /* Dark gray for text */
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 400vh;
+        }
+
+        .box {
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background-color: #d5e0de; /* Pleasant color */
+            color: #0077cc; /* White text on green background */
+            border-radius: 8px;
+            text-align: center;
+        }
+         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+ #result {
+            font-size: 1.2em;
+            color: red;
+            font-weight: bold;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #game-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            border: 2px solid #000;
+            overflow: hidden;
+        }
+        #target {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+			cursor: pointer;
+        }
+        #score {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #positive-message {
+            color: ;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            color: #0077cc;
+        }
+        .story-box {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+            text-align: left;
+			  }
+         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            color: #0077cc;
+        }
+        #song-list {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .song {
+            margin-bottom: 10px;
+        }
+		 .book {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+            text-align: left;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            color: #333;
+        }
+		 #movie-list {
+            list-style: none;
+            padding: 0;
+        }
+        .movie {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            color: #333;
+        }
+        #movie-list {
+            list-style: none;
+            padding: 0;
+        }
+        .movie {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+		body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0077cc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #0077cc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }  body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+		 button:hover {
+            background-color: #0077cc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+		body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        #output {
+            margin-top: 20px;
+        }
+		 body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #wordDisplay {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #result {
+            margin-top: 10px;
+        }
+		
+
+
+		
+		
+		
+
+    </style>
+</head>
+<body>
+    <div id="content" onclick="openMindzenPage()">
+        <h1>Mindzen</h1>
+        <p>Click Mindzen to find better you!</p>
+    </div>
+
+    <div id="healthTracking" class="white-bg" onclick="openHealthTrackingPage()">
+        <p>Track zen</p>
+    </div>
+
+    <div id="mentalIllness" class="white-bg" onclick="openMentalTest()">
+        <p>Calm zen</p>
+    </div>
+
+    <div id="positiveCorner" class="white-bg" onclick="openPositiveCorner()">
+        <p>Glow zen</p>
+    </div>
+    
+     
+    <div id="trackingDetails" style="display: none;">
+        <div class="brain-structure">
+           <div class="box">Active zen</div>
+		   
+
+    <form id="activityForm">
+        <label for="activity">Activity:</label>
+        <input type="text" id="activity" name="activity" required>
+
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="button" onclick="addActivity()">Add Activity</button>
+    </form>
+
+    <table id="activityTable">
+        <thead>
+            <tr>
+                <th>Activity</th>
+                <th>Duration (minutes)</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Activity entries will be added here dynamically -->
+        </tbody>
+    </table>
+
+		   		  
+		   
+            <div class="box">Rest zen</div>
+			<br>
+			
+    <input type="time" id="sleepStartTime" required>
+
+    <label for="sleepEndTime">Sleep End Time:</label>
+    <input type="time" id="sleepEndTime" required>
+
+    <button onclick="calculateSleepCycle()">Calculate Sleep Cycle</button>
+
+    <div id="output"></div>
+			
+
+    
+
+            
+		    
+
+   
+        </div>
+      </div> 
+      </div>
+      <div id="positiveDetails" style="display: none;">
+        <div class="brain-structure">
+           <div class="box"><center>Success Stories</center></div>
+		   <br>
+           
+    
+
+    <div class="story-box">
+        <h3>Story 1: Deepika Padukone</h3>
+        <p>It was the first time when an A-lister actually chose to come out in the open to declare her mental status to everyone.
+		She addressed to the entire world and talked it all out about how she suffered from serious depression because of her failed
+		relationship and how the entire illness took a toll on her. Deepika was at the peak of her career and very well knew that this
+		could backlash on her profession, but she cared little and gave out ways to cope for people who go through the same kind of illnesses.
+		by Pratibha Devasenapathy.</p>
+    </div>
+
+    <div class="story-box">
+        <h3>Story 2:Robin Uthappa</h3>
+        <p>One notable Indian sportsman who openly discussed his battle with depression and managed to overcome it is cricketer Robin Uthappa.
+		Robin Uthappa is a talented Indian cricketer who has represented the Indian national team in both One Day Internationals (ODIs) and T20 matches.
+		He has also been a key player in the Indian Premier League (IPL).
+
+        In 2017, Robin Uthappa opened up about his struggle with clinical depression during the early years of his cricketing career. He spoke about the
+		intense pressure, expectations, and the emotional toll that professional cricket can take on players. Uthappa shared his experiences to raise awareness 
+		about mental health issues in sports and to encourage others to seek help.
+
+        Overcoming the challenges of depression, Uthappa continued to play cricket and remained a valuable asset to his teams. His openness about mental 
+		health issues contributed to the growing conversation about mental well-being in Indian sports. It's important to note that mental health challenges
+		can affect individuals in any profession, including elite athletes, and seeking support is a crucial step towards recovery..</p>
+    </div>
+	<div class="story-box">
+        <h3>Story 3:Vishal [Tamil actor]</h3>
+        <p>Prominent faces in the Tamil film industry on Thursday came forward to talk about their experiences with depression and how they overcame it.
+ 		   Some in the industry had lost a friend to depression, others a family member, many in the prime of their lives without even realising it.
+           “I woke up one morning feeling I had fallen and I was struggling to get up I felt alone,” saidActor Vishal. He said he was however fortunate 
+	       enough to be able to draw strength from within.
+          “I would look at my reflection and imagine I was talking to my conscience. I said I could do it,” said the actor at a programme held to announce the
+          World Health Day Summit, scheduled to be held in New Delhi on April 6 and 7.
+          Vishal said there were many in the industry who suffered from depression but were too afraid to talk fearing it would upset
+		 their careers.</p>
+    </div>
+	<h2>Story Boards</h2>
+	<div class="story-box">
+        <h3>Story 1: The Garden of Resilience</h3>
+        <p>Once upon a time in a small village, there lived a woman named Maya. Maya had faced many challenges in life, and at times, it felt like the weight
+		of the world was on her shoulders. One day, as she walked through the village, she stumbled upon an abandoned garden.
+
+        Despite its neglect, Maya saw potential in the garden. She decided to nurture it back to life. Day by day, she tended to the soil, planted new seeds, 
+		and watered the plants. Slowly, the garden began to flourish.
+
+        As the flowers bloomed and the trees regained their vitality, Maya found a sense of purpose and joy. The act of cultivating life in the garden mirrored
+		her own journey of resilience. The vibrant colors and fragrant blossoms became a daily reminder that, just like the garden, she too could grow through adversity.
+
+        Word spread about Maya's magical garden, and soon the whole village came to enjoy its beauty. The garden became a symbol of hope and resilience,
+		teaching everyone that even in the midst of neglect, life could be revived with care and determination..</p>
+    </div>
+	<div class="story-box">
+        <h3>Story 2: The Tale of Gratitude</h3>
+        <p>In a quaint town, there lived a man named Sam who, despite facing hardships, found solace in a simple practice—gratitude.
+		Every evening, Sam would sit by the window and reflect on three things he was grateful for that day.
+
+        One day, as he faced particularly challenging times, Sam found it hard to identify positive aspects. Instead of giving up, he decided to express gratitude
+		for the small things—a warm cup of tea, the comforting sound of rain, and the support of a friend.
+
+       As days turned into weeks, Sam's gratitude practice transformed his perspective. He began to notice the beauty in ordinary moments and appreciate the kindness of others.
+	   Slowly, his mindset shifted from focusing on what went wrong to acknowledging the many things that went right.
+
+       One evening, as Sam looked out of his window, he saw a rainbow after a refreshing rain. It dawned on him that even after the stormiest days,
+	   there could be a burst of color and light. The rainbow became a symbol of resilience and the beauty that follows adversity.
+
+      Sam's tale spread through the town, inspiring others to adopt a gratitude mindset. The simple act of appreciating life's small blessings became
+	  a powerful tool for combating despair and finding joy in the present moment..</p>
+    </div>
+
+   
+
+            
+            
+    <div id="song-list">
+	<h2>Song Recommendations</h2>
+        <div class="song">
+            <strong>Song Title:</strong> "Lean on me"
+            <br>
+            <strong>Language:</strong> English
+            <br>
+            <strong>Song By:</strong> The Weeknd
+        </div>
+
+        <div class="song">
+            <strong>Song Title:</strong> "Tuttu Anna Thinoke"
+             <br>
+            <strong>Language:</strong> Kannada
+           
+            <br>
+            <strong>Song By:</strong> Jimmi Gallu
+        </div>
+
+        <div class="song">
+            <strong>Song Title:</strong> "Abhi mujh mein kahin"
+            <br>
+            <strong>Language:</strong> Hindi
+            <br>
+            <strong>Song By:</strong> Amitabh Battacharya
+            
+        </div>
+
+        <!-- Add more songs as needed -->
+    </div>
+            
+            
+        </div>
+		<h2>Book Recommendations</h2>
+
+    <div class="book">
+        <h3>Lost Connections</h3>
+        <p>by Johann Hari</p>
+        <p>Connections explains why depression affects so many people and that improving our
+        relationships, not taking medication, is the way to beat our mental health problems.</p>
+    </div>
+
+    <div class="book">
+        <h3>Furiously Happy</h3>
+        <p>by Jenny Lawson</p>
+        <p>In Furiously Happy, a humor memoir tinged with just enough tragedy and pathos to make 
+        it worthwhile, Jenny Lawson examines her own experience with severe depression and a host
+        of other conditions, and explains how it has led her to live life to the fullest.</p>
+    </div>
+
+    <div class="book">
+        <h3>Life is beautiful</h3>
+        <p>by Jogi</p>
+        <p>Collection of short stories about Life and Love. Stories are easily forgettable as
+        they were heard/read. It is first video book ever made in Kannada which Available in YouTube.</p>
+    </div>
+	 <h2>Movie Recommendations</h2>
+
+    <p>Check out these fantastic movies that we recommend:</p>
+
+    <ul id="movie-list">
+        <li class="movie">Dear Zindigi </li>
+        <li class="movie">Inside Out</li>
+        <li class="movie">Melancholia</li>
+		<li class="movie">About Time</li>
+		<li class="movie">Tamasha</li>
+		<li class="movie">Chhichhore</li>
+		
+        
+    </ul>
+            
+            
+        </div>
+      </div> 
+      </div>
+ 
+      
+
+	  
+      
+      <div id="illnessDetails" style="display: none;>
+        
+    <h2>take test</h2>
+
+ <div id="illnessDetails">
+        <h2>Take a Test</h2>
+        <div id="quiz">
+            <div class="question">
+                <p>1. Which kind of person are you?</p>
+                <div class="options">
+                    <input type="radio" name="q1" value="a">a) Positive thinker
+                    <input type="radio" name="q1" value="b">b) Optimist
+                    <input type="radio" name="q1" value="c">c) Lively
+                    <input type="radio" name="q1" value="d">d) Friend to all
+                </div>
+            </div>
+             <div class="question">
+                <p>2. Over the past two weeks, how often have you felt persistent sadness or hopelessness?</p>
+                <div class="options">
+                    <input type="radio" name="q2" value="a">a) Rarely
+                    <input type="radio" name="q2" value="b">b) Occasionally 
+                    <input type="radio" name="q2" value="c">c) Frequently
+                    <input type="radio" name="q2" value="d">d) Constantly
+                </div>
+            </div>
+
+            <button class="button" onclick="submitQuiz()">Submit</button>
+        </div>
+        <div id="result"></div>
+        
+         <h2>Depression Detection</h2>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="detectDepression()">Detect Depression</button>
+    <div id="result">
+	<form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="videoFile">Select Video:</label>
+		<br>
+		<br>
+        <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
+        <br>
+        <button type="submit">Upload Video</button>
+    </form></div>
+	 
+
+    <h2>Attention and Focus Game</h2>
+    <p>Click on the target as many times as you can within 20 seconds!</p>
+
+    <div id="game-container">
+        <div id="target"></div>
+    </div>
+
+    <div id="score-container">
+        <div id="good">Good: 0</div>
+      
+  <div id="better">Better: 0</div>
+        <div id="way-to-go">Way to Go: 0</div>
+    </div>
+     
+     
+
+    </div>
+    
+   
+		
+		       
+    
+
+   
+   
+    
+</div>
+<div id="positiveDetails" style="display: none;">
+        <div class="brain-structure">
+           <div class="box">Success Stiries</div>
+            <div class="box">Click here to calm your mind</div>
+             
+            
+            
+        </div>
+        
+       
+        
+
+      </div> 
+
+       
+   
+     
+
+    <script>
+        function openMindzenPage() {
+            document.getElementById('content').style.display = 'none';
+            document.getElementById('healthTracking').style.display = 'block';
+            document.getElementById('mentalIllness').style.display = 'block';
+            document.getElementById('positiveCorner').style.display = 'block';
+        }
+
+        function openHealthTrackingPage() {
+            document.getElementById('healthTracking').style.display = 'none';
+            document.getElementById('mentalIllness').style.display = 'none';
+            document.getElementById('positiveCorner').style.display = 'none';
+            document.getElementById('trackingDetails').style.display = 'block';
+        }
+        function openMentalTest() {
+            document.getElementById('healthTracking').style.display = 'none';
+            document.getElementById('mentalIllness').style.display = 'none';
+            document.getElementById('positiveCorner').style.display = 'none';
+            document.getElementById('trackingDetails').style.display = 'none';
+            document.getElementById('illnessDetails').style.display = 'block'; 
+        }
+       
+        function openPositiveCorner() {
+            document.getElementById('healthTracking').style.display = 'none';
+            document.getElementById('mentalIllness').style.display = 'none';
+            document.getElementById('positiveCorner').style.display = 'none';
+            document.getElementById('trackingDetails').style.display = 'none';
+            document.getElementById('illnessDetails').style.display = 'none'; 
+           
+            document.getElementById('positiveDetails').style.display = 'block'; 
+        }
+        function submitQuiz() {
+        // Gather user's answers
+        var q1Answer = document.querySelector('input[name="q1"]:checked').value;
+        var q2Answer = document.querySelector('input[name="q2"]:checked').value;
+		
+        // Check answers and display result
+        var correctAnswers = 0;
+
+        if (q1Answer === "a,b,c,d") {
+            correctAnswers++;
+        }
+
+        if (q2Answer === "d") {
+            correctAnswers++;
+        }
+        
+		
+		
+
+        var resultMessage = "You got " + correctAnswers + " out of 2 questions correct!";
+        document.getElementById("result").innerHTML = resultMessage;
+    }  
+    
+    function openTest() {
+        document.getElementById('healthTracking').style.display = 'none';
+        document.getElementById('mentalIllness').style.display = 'none';
+        document.getElementById('positiveCorner').style.display = 'none';
+        document.getElementById('trackingDetails').style.display = 'none';
+        document.getElementById('illnessDetails').style.display = 'none'; 
+        document.getElementById('testDetails').style.display = 'none';
+		document.getElementById('furthurdetection').style.display = 'block'; 
+    }
+    function detectDepression() {
+            var input = document.getElementById("imageInput");
+            var file = input.files[0];
+
+            if (file) {
+                // You can implement facial detection and emotion analysis here
+                // This could involve using a machine learning model or an API
+
+                // For a simple example, let's assume the analysis is positive
+                document.getElementById("result").textContent = "You may be showing signs of depression. Please consult with a mental health professional.";
+            } else {
+                document.getElementById("result").textContent = "Please upload an image.";
+            }
+        }
+         var score = {
+            good: 0,
+            better: 0,
+            wayToGo: 0
+        };
+
+        function startGame() {
+            resetScore();
+            setInterval(spawnTarget, 2000); // Spawn a new target every 2 seconds
+            setTimeout(endGame, 20000); // End the game after 20 seconds
+        }
+
+        function resetScore() {
+            score.good = 0;
+            score.better = 0;
+            score.wayToGo = 0;
+            updateScoreDisplay();
+        }
+
+        function updateScoreDisplay() {
+            document.getElementById("good").textContent = "Good: " + score.good;
+            document.getElementById("better").textContent = "Better: " + score.better;
+            document.getElementById("way-to-go").textContent = "Way to Go: " + score.wayToGo;
+        }
+
+        function spawnTarget() {
+            var target = document.getElementById("target");
+            var gameContainer = document.getElementById("game-container");
+
+            var maxX = gameContainer.clientWidth - target.clientWidth;
+            var maxY = gameContainer.clientHeight - target.clientHeight;
+
+            var randomX = Math.floor(Math.random() * maxX);
+            var randomY = Math.floor(Math.random() * maxY);
+
+            target.style.left = randomX + "px";
+            target.style.top = randomY + "px";
+
+            target.onclick = function () {
+                handleClick();
+            };
+        }
+
+        function handleClick() {
+            var randomNumber = Math.random();
+
+            if (randomNumber < 0.3) {
+                score.wayToGo++;
+            } else if (randomNumber < 0.6) {
+                score.better++;
+            } else {
+                score.good++;
+            }
+
+            updateScoreDisplay();
+            spawnTarget(); // Spawn a new target after a successful click
+        }
+
+        function endGame() {
+            alert("Game Over! Your score: \nGood: " + score.good + "\nBetter: " + score.better + "\nWay to Go: " + score.wayToGo);
+            resetScore();
+        }
+
+        // Start the game when the page loads
+        window.onload = startGame;
+		 function addActivity() {
+            var activity = document.getElementById("activity").value;
+            var duration = document.getElementById("duration").value;
+            var date = document.getElementById("date").value;
+
+            var table = document.getElementById("activityTable").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.rows.length);
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+            cell1.innerHTML = activity;
+            cell2.innerHTML = duration;
+            cell3.innerHTML = date;
+
+            // Clear form fields
+            document.getElementById("activityForm").reset();
+        }
+		 function addActivity() {
+            var activity = document.getElementById("activity").value;
+            var duration = document.getElementById("duration").value;
+            var date = document.getElementById("date").value;
+
+            var table = document.getElementById("activityTable").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.rows.length);
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+            cell1.innerHTML = activity;
+            cell2.innerHTML = duration;
+            cell3.innerHTML = date;
+
+            // Clear form fields
+            document.getElementById("activityForm").reset();
+        }
+		function calculateSleepCycle() {
+            const sleepStartTime = document.getElementById('sleepStartTime').value;
+            const sleepEndTime = document.getElementById('sleepEndTime').value;
+
+            const startTime = new Date(`2022-01-01T${sleepStartTime}:00`);
+            const endTime = new Date(`2022-01-01T${sleepEndTime}:00`);
+
+            const sleepDuration = (endTime - startTime) / (1000 * 60 * 60); // in hours
+
+            let sleepCycle;
+            if (sleepDuration >= 7 && sleepDuration <= 9) {
+                sleepCycle = "You had a good sleep!";
+            } else if (sleepDuration < 7) {
+                sleepCycle = "You may need more sleep for a complete sleep cycle.";
+            } else {
+                sleepCycle = "You might have overslept. Try to maintain a consistent sleep duration.";
+            }
+
+            document.getElementById('output').innerHTML = `<p>Sleep Duration: ${sleepDuration.toFixed(2)} hours</p><p>${sleepCycle}</p>`;
+        }
+
+		
+
+
+       
+    
+
+      
+		 
+    </script>
+     
+</body>
+</html>
